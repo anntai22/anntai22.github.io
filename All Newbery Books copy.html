@@ -1,0 +1,362 @@
+<HTML>
+<HEAD>
+	<TITLE>Newbery Books Website - All Newbery Books </TITLE>
+
+	  <link rel="icon" 
+     type="image/png" 
+     href="https://s-media-cache-ak0.pinimg.com/originals/ec/1a/99/ec1a99cb1c585f89b96ab22e31dcd767.jpg">
+
+
+<STYLE type="text/css">
+
+nav{
+	position: fixed;
+	left: 50px;
+	z-index: 11;
+}
+
+/*dropdown menu starts*/
+nav ul ul {
+display: none;
+text-decoration: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+
+box-shadow: 0px 0px 0px rgba(0,0,0,0.8);
+padding: 0 200px;
+padding-top: 10px;
+border-radius: 0px; 
+list-style: none;
+position: fixed;
+display: inline-table;
+opacity: 1;
+z-index:1;
+text-decoration: none;
+/*length*/
+width: 1000px;
+top: -20px;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #FFFFFF  ;
+text-decoration: none;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+text-decoration: none;
+
+}
+
+nav ul ul {
+background: #999999; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #454545; /*borders between menu items */
+border-bottom: 1px solid #454545;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #454545;
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/*dropdown ends*/
+
+#logo {
+	z-index: 11;
+	left: 0px;
+	top: 0px;
+	height: 90;
+	position: fixed;
+}
+
+#text {
+	opacity: 0.2;
+}
+
+#menubg{
+	background: #999999;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 6;
+}
+
+#menuwords {
+	font-family: cursive;
+	font-size: 18;
+}
+
+#allbooks {
+	font-size: 13;
+	text-decoration: none;
+}
+
+#featuredbooks {
+	font-size: 50;
+	color: black;
+}
+
+/*table start*/
+#table{
+	position: absolute;
+	z-index: -1
+	left:10;
+}
+
+#tablewords {
+	font-size: 11;
+	font-family: arial;
+}
+
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+</head>
+</STYLE>
+</HEAD>
+
+<BODY bgcolor= #FEF9E7 link='white' vlink='white' alink='white'>
+<DIV id='menubg'></DIV>
+<IMG src= 'Images/New Newbery Logo.png' id= 'logo'>
+<H3>
+<NAV>
+<UL>
+<DIV id= 'menuwords'>
+<LI> <A HREF = Home.html> Home </A> </LI>
+
+				<LI> <A HREF = 'About Us.html'> About Us </A> </LI>
+
+			<LI> <A HREF = 'Featured Books.html'> Featured </A> </LI>
+
+<DIV id= 'allbooks'>
+		<LI> <A HREF = 'All Newbery Books.html'> All Newbery Books </A> </LI>
+</DIV>		
+</UL>
+</DIV>
+</NAV>
+
+<CENTER><BR><BR><BR><BR><BR>
+<DIV id= 'featuredbooks'>All Newbery Books</DIV>
+<BR>
+Here are all the Newbery books from 1922 - 2017!
+<BR><BR>
+Tip: Use Command F and type in a Newbery book name or a year to find a book quickly!
+<BR><BR>
+<FONT id= 'tablewords' >
+<table id='table'>
+  
+<TR>
+<TH>2017: <U> The Girl Who Drank the Moon</U>  by Kelly Barnhill </TH>
+<TH>2016:  <U>Last Stop on Market Street </U> by Matt de la Peña </TH>
+<TH>2015:  <U>The Crossover </U> by Kwame Alexander   </TH>
+<TH>2014:  <U>Flora & Ulysses: The Illuminated Adventures </U> by Kate DiCamillo </TH>
+<TH>2013:  <U>The One and Only Ivan </U> by Katherine Applegate </TH>
+</TR>
+
+<TR>
+<TH>2012: <U> Dead End in Norvelt</U>  by Jack Gantos </TH>
+<TH>2011:  <U>Moon over Manifest </U> by Clare Vanderpool </TH>
+<TH>2010:  <U>When You Reach Me </U> by Rebecca Stead</TH>
+<TH>2009:  <U>The Graveyard Book </U> by Neil Gaiman, illus. by Dave McKean</TH>
+<TH>2008:  <U>Good Masters! Sweet Ladies! Voices from a Medieval Village </U> by Laura Amy Schlitz </TH>
+</TR>
+
+<TR>
+<TH>2007:  <U>The Higher Power of Lucky </U> by Susan Patron, illus. by Matt Phelan</TH>
+<TH>2006:  <U>Criss Cross </U> by Lynne Rae Perkins  </TH>
+<TH>2005:  <U>Kira-Kira </U> by Cynthia Kadohata </TH>
+<TH>2004:  <U>The Tale of Despereaux: Being the Story of a Mouse, a Princess, Some Soup, and a Spool of Thread </U> by Kate DiCamillo </TH> 
+<TH>2003:  <U>Crispin: The Cross of Lead </U> by Avi </TH> 
+</TR>
+
+<TR>
+<TH>2002:  <U>A Single Shard </U> by Linda Sue Park  </TH> 
+<TH>2001:  <U>A Year Down Yonder </U> by Richard Peck </TH> 
+<TH>2000:  <U>Bud, Not Buddy </U> by Christopher Paul Curtis </TH> 
+<TH>1999:  <U>Holes</U>  by Louis Sachar </TH> 
+<TH>1998:  <U>Out of the Dust </U> by Karen Hesse </TH>
+</TR>
+
+<TR>
+<TH>1997:  <U>The View from Saturday </U> by E.L. Konigsburg</TH>
+<TH>1996:  <U>The Midwife's Apprentice </U> by Karen Cushman </TH>
+<TH>1995:  <U>Walk Two Moons</U>  by Sharon Creech</TH>
+<TH>1994:  <U>The Giver </U> by Lois Lowry</TH>
+<TH>1993:  <U>Missing May </U> by Cynthia Rylant</TH>
+</TR>
+
+<TR>
+<TH>1992:  <U>Shiloh </U> by Phyllis Reynolds Naylor </TH>
+<TH>1991:  <U>Maniac Magee </U> by Jerry Spinelli </TH>
+<TH>1990:  <U>Number the Stars </U> by Lois Lowry </TH>
+<TH>1989:  <U>Joyful Noise: Poems for Two Voices </U> by Paul Fleischman </TH>
+<TH>1988: <U> Lincoln: A Photobiography </U> by Russell Freedman </TH>
+</TR>
+
+<TR>
+<TH>1987:  <U>The Whipping Boy </U> by Sid Fleischman </TH>
+<TH>1986:  <U>Sarah, Plain and Tall </U> by Patricia MacLachlan </TH>
+<TH>1985:  <U>The Hero and the Crown </U> by Robin McKinley </TH>
+<TH>1984:  <U>Dear Mr. Henshaw </U> by Beverly Cleary </TH>
+<TH>1983:  <U>Dicey's Song </U> by Cynthia Voigt </TH>
+</TR>
+
+<TR>
+<TH>1982: <U> A Visit to William Blake's Inn: Poems for Innocent and Experienced Travelers </U> by Nancy Willard </TH>
+<TH>1981:  <U>Jacob Have I Loved </U> by Katherine Paterson </TH>
+<TH>1980:  <U>A Gathering of Days: A New England Girl's Journal, 1830-1832 </U> by Joan W. Blos </TH>
+<TH>1979:  <U>The Westing Game </U> by Ellen Raskin </TH>
+<TH>1978:  <U>Bridge to Terabithia </U> by Katherine Paterson </TH>
+</TR>
+
+<TR>
+<TH>1977:  <U>Roll of Thunder, Hear My Cry </U> by Mildred D. Taylor </TH>
+<TH>1976:  <U>The Grey King </U> by Susan Cooper </TH>
+<TH>1975:  <U>M. C. Higgins, the Great </U> by Virginia Hamilton </TH>
+<TH>1974:  <U>The Slave Dancer </U> by Paula Fox </TH>
+<TH>1973:  <U>Julie of the Wolves </U> by Jean Craighead George </TH>
+</TR>
+
+<TR>
+<TH>1972: <U> Mrs. Frisby and the Rats of NIMH  </U> by Robert C. O'Brien  </TH>
+<TH>1971: <U> Summer of the Swans  </U>by Betsy Byars  </TH>
+<TH>1969: <U>The High King  </U>by Lloyd Alexander  </TH>
+<TH>1968: <U>From the Mixed-Up Files of Mrs. Basil E. Frankweiler  </U>by E.L. Konigsburg  </TH>
+<TH>1967: <U>Up a Road Slowly  </U>by Irene Hunt </TH>
+</TR>
+
+<TR>
+<TH>1966: <U>I, Juan de Pareja  </U>by Elizabeth Borton de Trevino  </TH>
+<TH>1965: <U>Shadow of a Bull  </U>by Maia Wojciechowska  </TH>
+<TH>1964: <U>It's Like This, Cat  </U>by Emily Neville  </TH>
+<TH>1963: <U>A Wrinkle in Time  </U>by Madeleine L'Engle  </TH>
+<TH>1962: <U>The Bronze Bow  </U>by Elizabeth George Speare  </TH>
+</TR>
+
+<TR>
+<TH>1961: <U>Island of the Blue Dolphins  </U>by Scott O'Dell  </TH>
+<TH>1960: <U>Onion John  </U>by Joseph Krumgold  </TH>
+<TH>1959: <U>The Witch of Blackbird Pond  </U>by Elizabeth George  </TH>
+<TH>1958: <U>Rifles for Watie  </U>by Harold Keith  </TH>
+<TH>1957: <U>Miracles on Maple Hill  </U>by Virginia Sorensen  </TH>
+</TR>
+
+<TR>
+<TH>1956: <U>Carry On, Mr. Bowditch  </U>by Jean Lee Latham  </TH>
+<TH>1955: <U>The Wheel on the School  </U>by Meindert DeJong  </TH>
+<TH>1954: <U>...And Now Miguel  </U>by Joseph Krumgold  </TH>
+<TH>1953: <U>Secret of the Andes </U> by Ann Nolan Clark  </TH>
+<TH>1952: <U>Ginger Pye </U> by Eleanor Estes  </TH>
+</TR>
+
+<TR>
+<TH>1951: <U>Amos Fortune, Free Man </U> by Elizabeth Yates </TH>
+<TH>1950: <U>The Door in the Wall  </U>by Marguerite de Angeli  </TH>
+<TH>1949: <U>King of the Wind </U> by Marguerite Henry  </TH>
+<TH>1948: <U>The Twenty-One Balloons </U> by William Pène du Bois </TH>
+<TH>1947: <U>Miss Hickory </U> by Carolyn Sherwin Bailey </TH>
+</TR>
+
+<TR>
+<TH>1946: <U>Strawberry Girl </U> by Lois Lenski  </TH>
+<TH>1945: <U>Rabbit Hill </U> by Robert Lawson </TH>
+<TH>1944: <U>Johnny Tremain </U> by Esther Forbes  </TH>
+<TH>1943: <U>Adam of the Road </U> by Elizabeth Janet Gray </TH>
+<TH>1942: <U>The Matchlock Gun </U> by Walter Edmonds </TH>
+</TR>
+
+<TR>
+<TH>1941: <U>Call It Courage </U> by Armstrong Sperry</TH>
+<TH>1940: <U>Daniel Boone </U> by James Daugherty</TH>
+<TH>1939: <U>Thimble Summer </U> by Elizabeth Enright </TH>
+<TH>1938: <U>The White Stag </U> by Kate Seredy </TH>
+<TH> 1937: <U> Roller Skates </U> by Ruth Sawyer </TH>
+</TR>
+
+  <tr>
+    <TH>1936: <U>Caddie Woodlawn</U> by Carol Ryrie Brink</TH>
+    <TH>1935: <U>Dobry</U>  by Monica Shannon </TH>
+    <TH>1934: <U>Invincible Louisa: The Story of the Author of Little Women</U>  by Cornelia Meigs </TH>
+    <TH>1933: <U>Young Fu of the Upper Yangtze </U>  by Elizabeth Lewis</TH>
+    <TH>1932: <U> Waterless Mountain </U>by Laura Adams Armer</TH>
+  </tr>
+
+    <tr>
+    <TH>1931: <U>The Cat Who Went to Heaven</U> by Elizabeth Coatsworth 
+</TH>
+    <TH>1930: <U>Hitty, Her First Hundred Years</U> by Rachel Field </TH>
+    <th> 1929: <U>The Trumpeter of Krakow </U> by Eric P. Kelly</th>
+    <th>1928: <U>Gay Neck, the Story of a Pigeon </U> by Dhan Gopal Mukerji  </th>
+    <th>1927: <U>Smoky, the Cowhorse </U> by Will James </th>
+  </tr>
+
+
+    <tr>
+    <th>1926: <U> Shen of the Sea </U> by Arthur Bowie Chrisman</th>
+    <th>1925: <U> Tales from Silver Lands </U> by Charles Finger </th>
+    <th>1924: <U> The Dark Frigate </U> by Charles Hawes </th>
+    <th>1923: <U> The Voyages of Doctor Dolittle </U> by Hugh Lofting </th>
+    <th>1922: <U> The Story of Mankind </U> by Hendrik Willem van Loon </th>
+  </tr>
+
+
+</table>
+</FONT>
+<BR><BR><BR><BR><BR><CENTER>
+</BODY>
+</HTML >
